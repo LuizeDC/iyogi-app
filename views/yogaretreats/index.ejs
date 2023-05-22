@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="../../stylesheets/index.css" />
+<% layout('layouts/boilerplate') %>
+
+<!-- MAP -->
+<div id="cluster-map"></div>
+<!-- END MAP -->
+<div id="retreats-container">
+  <% for(let y of yogaretreats.docs) {%>
+  <div class="card mb-3">
+    <div class="row">
+      <div class="col-md-4">
+        <%if(y.images.length) {%>
+        <img src="<%= y.images[0].url %>" alt="" class="img-fluid" />
+        <% } else { %>
+        <img
+          crossorigin="anonymous"
+          src="https://res.cloudinary.com/djt0xdcf1/image/upload/v1683728334/YogaRetreat/ydlyrils2ai9iknapbof.jpg"
+          alt=""
+          class="img-fluid"
+        />
+        <% } %>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">
+            <strong><%= y.title %></strong>
+          </h5>
+          <p class="card-text"><%= y.description %></p>
+          <p class="card-text">
+            <small class="text-muted"><%= y.location %></small>
+          </p>
+          <a href="/yogaretreats/<%= y._id %>" class="btn">
+            View <%= y.title %></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <% } %>
+</div>
+<div class="text-center" id="viewMore">
+  <a
+    href="/yogaretreats?page=<%= yogaretreats.nextPage %>"
+    class="btn"
+    id="paginate"
+    >View More</a
+  >
+</div>
+<script>
+  const retreatData = {features: <%- JSON.stringify(yogaretreats.docs) %>}
+</script>
+<script src="../scripts/indexMap.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.7.0.js"
+  integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+  crossorigin="anonymous"
+></script>
+<script src="../../scripts/pagination.js"></script>

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+body {
+  height: 100vh;
+  background-color: rgba(117, 115, 78, 0.3);
+}
+.navbar {
+  background-color: #d5d4c9;
+  height: 65px;
+}
+
+#mainTitle {
+  font-family: "Reenie Beanie", cursive;
+  color: black;
+  font-size: 50px;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.3);
+}
+
+.nav-link,
+#homeLink a {
+  font-family: "Poppins", sans-serif;
+  font-weight: thin;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  color: black;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.3);
+}
+.nav-link:hover {
+  background-color: #a59d72;
+  color: white;
+  border-bottom: 0.01rem solid transparent;
+  border-bottom-color: #9d8f7e;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.3);
+}
+
+.text-center {
+  margin-top: -40px;
+  font-family: "Reenie Beanie", cursive;
+  color: #41372e;
+  font-size: 90px;
+  text-shadow: 1px 2px 2px rgba(83, 83, 83, 0.3);
+}
+
+.card-title,
+.card-text,
+.text-muted {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.2);
+}
+.card-title {
+  color: #5b5044;
+  font-family: "Questrial", sans-serif;
+  font-weight: thin;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.2);
+  font-size: 27px;
+  margin-top: 8px;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+.btn {
+  margin-top: 20px;
+  font-weight: 400;
+  color: white;
+  background-color: #a59d72;
+  font-size: 15px;
+  border-color: #a59d72;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.2);
+}
+
+.btn:hover {
+  background-color: #7c7557;
+  color: white;
+}
+
+#viewMore {
+  font-family: "Questrial", sans-serif;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.2);
+}

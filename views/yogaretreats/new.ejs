@@ -1,0 +1,89 @@
+<link rel="stylesheet" href="../../stylesheets/push.css" />
+<% layout('layouts/boilerplate') %>
+<div class="row">
+  <h1 class="text-center">Recommend a Retreat</h1>
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="row">
+      <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4">
+        <div class="card shadow p-3">
+          <form
+            action="/yogaretreats"
+            method="POST"
+            novalidate
+            class="validated-form"
+            enctype="multipart/form-data"
+          >
+            <div class="mb-3">
+              <label class="form-label" for="title">Title</label>
+              <input
+                class="form-control"
+                type="text"
+                id="title"
+                name="yogaretreat[title]"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="location">Location</label>
+              <input
+                class="form-control"
+                type="text"
+                id="location"
+                name="yogaretreat[location]"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label" for="price">Retreat Price</label>
+              <div class="input-group">
+                <span class="input-group-text" id="price-label">$</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="price"
+                  placeholder="0.00"
+                  aria-label="price"
+                  aria-describedby="price-label"
+                  name="yogaretreat[price]"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label" for="description">Description</label>
+              <textarea
+                class="form-control"
+                type="text"
+                id="description"
+                name="yogaretreat[description]"
+                required
+              ></textarea>
+            </div>
+            <label for="">Upload images</label>
+            <div class="mb-3">
+              <div class="form-file custom-file">
+                <input
+                  type="file"
+                  class="form-file-input"
+                  id="image"
+                  name="image"
+                  multiple
+                />
+                <label class="form-file-label" for="image">
+                  <span class="form-file-text custom-file-label"
+                    >Choose image(s)...</span
+                  >
+                  <span class="form-file-button">Browse</span>
+                </label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <button class="btn btn-success">Add Retreat</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

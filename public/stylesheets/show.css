@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  height: 100vh;
+  background-color: #d5d4c9;
+}
+.navbar {
+  background-color: #d5d4c9;
+  height: 65px;
+}
+
+#mainTitle {
+  font-family: "Reenie Beanie", cursive;
+  color: black;
+  font-size: 50px;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.3);
+}
+
+.nav-link,
+#homeLink a {
+  font-family: "Poppins", sans-serif;
+  font-weight: thin;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  color: black;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.3);
+}
+.nav-link:hover {
+  background-color: #a59d72;
+  color: white;
+  border-bottom: 0.01rem solid transparent;
+  border-bottom-color: #9d8f7e;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.3);
+}
+
+.card-title {
+  color: #5b5044;
+  font-family: "Questrial", sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.2);
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin: 10px;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.2);
+}

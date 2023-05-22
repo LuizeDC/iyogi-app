@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(92, 92, 92, 0.3),
+      rgba(92, 92, 92, 0.3)
+    ),
+    url("https://images.unsplash.com/photo-1476725974034-6788d424c132?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+  background-size: cover;
+  background-position: center;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+
+.cover-container {
+  max-width: 60vw;
+}
+
+.nav {
+  background-color: rgba(157, 143, 126, 0.7);
+  padding: 0 20px 0 15px;
+}
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255);
+  margin-left: 1rem;
+  border-bottom: 0.25rem solid transparent;
+  text-shadow: 1px 2px 2px rgba(91, 85, 85, 0.5);
+}
+
+.nav-link:hover {
+  color: white;
+  border-bottom-color: white;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.3);
+}
+.nav-link.active {
+  color: white;
+  border-bottom-color: #c7b9a8;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.3);
+}
+
+.btn-secondary,
+.btn-secondary:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+  text-shadow: none;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.3);
+  font-family: "Manrope", sans-serif;
+  transition: all 1s ease-in-out;
+}
+.btn-secondary:hover {
+  letter-spacing: 0.2em;
+  transition: all 1s ease-in-out;
+  color: white;
+  border-color: #9d8f7e;
+  background-color: #9d8f7e;
+}
+
+h3,
+#centerTitle {
+  font-family: "Reenie Beanie", cursive;
+  color: white;
+  font-size: 90px;
+
+  text-shadow: 1px 2px 1px rgba(89, 83, 83, 0.6);
+}
+
+.lead {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  text-shadow: 1px 2px 1px rgba(89, 83, 83, 0.4);
+}

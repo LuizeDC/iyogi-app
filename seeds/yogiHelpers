@@ -1,0 +1,43 @@
+module.exports.descriptors = [
+  "Healing",
+  "Recharge",
+  "Mindfulness",
+  "Relaxing",
+  "Therapeutic",
+  "Juice Detox",
+  "Sound Healing",
+  "Find Inner Peace",
+  "Find Harmony",
+  "Stress Free",
+  "Self Discovery",
+  "Sacred Healing",
+  "Luxury",
+  "Wellness",
+  "Lifestyle Reset",
+  "Holistic Detox",
+  "Women only",
+  "Find Yourself",
+];
+
+module.exports.activity = [
+  "Hot Yoga",
+  "Kundalini Yoga",
+  "Ayurveda",
+  "Yoga",
+  "Hiking",
+  "Meditation",
+  "Ayurvedic Cleanse",
+];
+
+module.exports.places = [
+  "3 Weeks",
+  "2 Weeks",
+  "7 Days",
+  "7 Days",
+  "7 Days",
+  "6 Days",
+  "5 Days",
+  "4 Days",
+  "3 Days",
+  "Weekend",
+];

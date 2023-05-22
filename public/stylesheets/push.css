@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(92, 92, 92, 0.3),
+      rgba(92, 92, 92, 0.3)
+    ),
+    url("https://images.unsplash.com/photo-1669408496224-01f88ea58b9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  background-size: cover;
+  background-position: center;
+}
+/* NAV BAR  */
+#mainTitle {
+  font-family: "Reenie Beanie", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.3);
+}
+
+.nav-link,
+#homeLink a {
+  font-family: "Poppins", sans-serif;
+  font-weight: thin;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  color: white;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.3);
+}
+
+.nav-link:hover {
+  background-color: #9d8f7e;
+  color: white;
+  border-bottom: 0.01rem solid transparent;
+  border-bottom-color: #9d8f7e;
+  text-shadow: 1px 2px 1px rgba(129, 129, 129, 0.3);
+}
+/* END OF NAVBAR */
+
+.text-center {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+}
+.card {
+  background-color: rgba(255, 255, 255);
+}
+
+.form-label {
+  font-family: "Poppins", sans-serif;
+  font-weight: thin;
+  font-size: 20px;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.3);
+}
+
+.img-thumbnail {
+  height: 90px;
+  width: 90px;
+  border: 1px;
+}
+
+.btn {
+  color: white;
+  background-color: #756e4d;
+  border-color: #756e4d;
+  text-shadow: none;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.3);
+  transition: all 1s ease-in-out;
+}
+.btn:hover {
+  transition: all 1s ease-in-out;
+  color: white;
+  border-color: #9d8f7e;
+  background-color: #9d8f7e;
+}
